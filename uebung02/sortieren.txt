@@ -1,0 +1,15 @@
+Aufgabe 2
+
+a) Seien x und y zwei Elemente der Reellen Zahlen
+	x > y	<=>	x not <= y
+	x>= y	<=>	(x not <= y) or (x <= y and y <= x)
+	x < y	<=>	(x <= y) and not( x <= y and y <= x)
+	x<= y	<=>	x <= y
+	x== y	<=>	x <= y and y <= x
+	x!= y	<=>	(x not <= y) and (x <= y) and not(x <= y and y <= x)
+
+b) 
+	Dieser Aufwand ist unnötig, man kommt mit (n - 1) tests durch wenn man beim 
+	ersten Index startet und immer einen Vergleich mit dem <= Zeichen durch führt
+	und nach jeder Durchführung den Index um eins erhöht.
+	 
